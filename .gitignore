@@ -1,0 +1,15 @@
+node_modules
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+
+# Local secrets: only .env.example goes to the repository
+.env
+.env.*
+!.env.example
+
+.idea
+.vscode
+.DS_Store
+.perm_test
